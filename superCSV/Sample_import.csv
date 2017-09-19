@@ -1,0 +1,12 @@
+"DEName","DEInstance","Operation","RDN","MOName","MOInstance","Parameter","Value_RefType","Annotation"
+"EUtranCellFDD","TTSSLM1","SET","*","FACH",1,"maxFachPower",250,"Keep the value at least 50 above the fachPower"
+"ENBFunction","NSW_PARR_NBTA_33000113","SET","*","IubDataStreams",,"schHsFlowControlOnOff","{1,1,1,1,1,1,1,1,1,1,1,1,1,1}",
+"ENBFunction","NSW_PARR_NBTA_33000113","SET","*","SectorAntenna",1,"CellTimeSlotConfig.midambleShift",8,"Ignore any Design check rule set for this parameter"
+"ENBFunction","NSW_PARR_NBTA_33000113","SET","*","Sector",1,"geoDatum","WGS84",
+"ENBFunction","NSW_PARR_NBTA_33000113","SET","vsDataEquipment=1,vsDataSubrack=1","AuxPlugInUnit",1,"auType","ASC",
+"ENBFunction","NSW_PARR_NBTA_33000113","SET","vsDataEquipment=1,vsDataSubrack=1","AuxPlugInUnit",1,"auType","BFU",
+"ENBFunction","NSW_PARR_NBTA_33000113","APRT",,,,,"850Tma-3TxPort,pSubCh-Std,NoTma-3TxPort,SPECIAL-1stFA1",
+"ENBFunction","NSW_PARR_NBTA_33000113","ASRT",,,,,"850Tma-3TxPort,pSubCh-Std,NoTma-3TxPort,SPECIAL-1stFA1",
+"ENBFunction","NSW_PARR_NBTA_33000113","CRE","vsDataEquipment=1,vsDataSubrack=1","vsDataAuxPlugInUnit",1,,,
+"ENBFunction","NSW_PARR_NBTA_33000114","DEL","vsDataEquipment=1,vsDataSubrack=1","vsDataAuxPlugInUnit",1,,,
+"EUtranCellFDD","TTSSLM3","DEL",,,,,,
